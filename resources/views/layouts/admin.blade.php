@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Layla School Admin')</title>
 
-    <!-- ===== CSS DURALUX (WAJIB) ===== -->
+    <!-- CSS DURALUX -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css') }}">
 </head>
+
 <body>
 
 <div id="app">
@@ -25,9 +25,14 @@
 </div>
 
 <!-- ===== JS DURALUX (URUTAN PENTING) ===== -->
-<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins.js') }}"></script>
-<script src="{{ asset('assets/js/app.js') }}"></script>
+    
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/common-init.min.js') }}"></script>
+
+    {{-- optional: hanya untuk halaman dashboard --}}
+    @stack('scripts')
+</body>
+</html>
 
 </body>
 </html>

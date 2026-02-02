@@ -1,0 +1,295 @@
+@extends('front.layouts.app')
+
+@section('content')
+
+<!-- Hero Section -->
+<section class="text-center my-5">
+  <h1>Student Life</h1>
+  <p>Extracurricular, Achievements, Gallery</p>
+</section>
+
+<!-- Extracurricular -->
+<div class="container">
+  <h2 class="text-center mb-4 fw-bold">Extracurricular</h2>
+  <div class="row mt-4 g-4 justify-content-center">
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/ec.jpg" class="card-img-top" alt="EC" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">English Club</h5>
+          <p class="card-text">
+          Improve English skills through discussions, debates, and interactive activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/basket.jpg" class="card-img-top" alt="Basket" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Basketball</h5>
+          <p class="card-text">
+          Develop physical skills, strategies, and teamwork through basketball.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/laskar.jpg" class="card-img-top" alt="Laskar" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Library Club</h5>
+          <p class="card-text">
+          Encourage reading habits and manage the library to support student literacy.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/pks.jpg" class="card-img-top" alt="PKS" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">PKS</h5>
+          <p class="card-text">
+          Improve English proficiency through discussions, debates, and interactive activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/cinema.jpg" class="card-img-top" alt="Cinematography" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Cinematography</h5>
+          <p class="card-text">
+          Learn filmmaking arts, from shooting, editing, to creative video production.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/box.jpg" class="card-img-top" alt="Boxing" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Boxing</h5>
+          <p class="card-text">
+          Practice boxing techniques for physical fitness, confidence, and self-control.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/bulutangkis.jpg" class="card-img-top" alt="Badminton" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Badminton</h5>
+          <p class="card-text">
+          Improve badminton skills while maintaining health and sportsmanship.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/it.jpg" class="card-img-top" alt="IT Club" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">IT Club</h5>
+          <p class="card-text">
+          Develop IT skills including programming, graphic design, and networking.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/futsal.jpg" class="card-img-top" alt="Futsal" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Futsal</h5>
+          <p class="card-text">
+          Develop agility, sportsmanship, and fitness through futsal.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/paskib.jpg" class="card-img-top" alt="Paskibra" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Flag Ceremony Team (Paskibra)</h5>
+          <p class="card-text">
+          Train marching skills while instilling patriotism and discipline.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/pd.jpg" class="card-img-top" alt="Perisai Diri" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Traditional Martial Arts (Perisai Diri)</h5>
+          <p class="card-text">
+          Practice traditional martial arts to strengthen body, mind, and preserve cultural heritage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/plh.jpg" class="card-img-top" alt="PLH" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Environmental Club (PLH)</h5>
+          <p class="card-text">
+          Educate students on environmental preservation through eco-friendly activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/pmr.jpg" class="card-img-top" alt="PMR" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Red Cross Youth (PMR)</h5>
+          <p class="card-text">
+          Train students to be ready to provide first aid and engage in humanitarian activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/pramuka.jpg" class="card-img-top" alt="Scouting" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Scouting (Pramuka)</h5>
+          <p class="card-text">
+          Develop discipline, leadership, and social skills through scouting activities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/voly.jpg" class="card-img-top" alt="Volleyball" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Volleyball</h5>
+          <p class="card-text">
+          Improve volleyball skills with focus on techniques and teamwork.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/rohis.jpg" class="card-img-top" alt="Rohis" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Islamic Spiritual Club (Rohis)</h5>
+          <p class="card-text">
+          Instill Islamic values through study sessions, discussions, and communal worship.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/sepak.jpg" class="card-img-top" alt="Soccer" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Soccer</h5>
+          <p class="card-text">
+          Develop soccer skills while improving endurance and teamwork.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow p-3 mb-3 bg-body-tertiary rounded">
+       <img src="/images/ekstrakulikuler/seni.jpg" class="card-img-top" alt="Arts" style="max-height: 180px; object-fit: contain; width: 100%;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Arts</h5>
+          <p class="card-text">
+          Explore students' artistic talents, including dance, music, and theater.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Extracurricular -->
+
+
+<section id="achievements" class="container my-5">
+  <h2 class="text-center mb-4">Achievements & Awards</h2>
+  <div class="row g-4 text-center">
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/award/sainjuara.png" class="card-img-top" alt="Award 1">
+        <div class="card-body">
+          <h5 class="card-title">Science Olympiad 2025</h5>
+          <p class="card-text">Juara 1 tingkat provinsi untuk mata pelajaran IPA.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/award/basketjuara.jpg" class="card-img-top" alt="Award 2">
+        <div class="card-body">
+          <h5 class="card-title">Basketball Championship</h5>
+          <p class="card-text">Juara 2 kompetisi antar sekolah kota.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/award/lukis.jpg" class="card-img-top" alt="Award 3">
+        <div class="card-body">
+          <h5 class="card-title">Art Competition</h5>
+          <p class="card-text">Juara favorit lomba seni lukis tingkat nasional.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- Gallery Section -->errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr';/3eeeeeeeeeeeeeeeeeeeeeeeee4.;/''''''''''''
+  <h2 class="text-center mb-4">Gallery</h2>
+
+  <!-- Gallery Category: Pelepasan Kelas 12 -->
+  <div class="gallery-category mb-5">
+    <div class="card text-white bg-dark border-0">
+      <img src="/images/kelulusan.png" class="card-img" alt="Pelepasan Kelas 12" style="height: 400px; object-fit: cover;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-overlay p-3 rounded">
+        <h5 class="card-title">Pelepasan Kelas 12</h5>
+        <p class="card-text">Momen perpisahan siswa kelas 12 yang berkesan dan penuh kenangan.</p>
+        <button class="btn btn-primary align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#pelepasan12Gallery">Lihat Lebih Banyak</button>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+</section>
+
